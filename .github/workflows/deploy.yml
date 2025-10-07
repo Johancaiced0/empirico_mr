@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
@@ -55,4 +55,5 @@ jobs:
               -v /home/ec2-user/secrets:/app/secrets \
               --env-file /home/ec2-user/mr_empirico/.env \
               johancaiced0/mr_empirico_backend:latest
+
 
