@@ -28,4 +28,5 @@ public class MrEmpiricoComputerMaintenaceApplication {
         System.out.println("Servidor corriendo en http://localhost:" + serverPort);
         System.out.println("Base de datos conectada en: " + datasourceUrl);
     }
+    
 }
